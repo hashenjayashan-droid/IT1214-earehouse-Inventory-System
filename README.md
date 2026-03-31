@@ -1,4 +1,3 @@
-# IT1214-earehouse-Inventory-System
 # Warehouse Inventory System
 
 ## Project Description
