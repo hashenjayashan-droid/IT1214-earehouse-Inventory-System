@@ -1,21 +1,31 @@
-# Warehouse Inventory System
+# Warehouse Inventory Management System
 
-## Project Description
-This is a simple Java-based warehouse inventory system.
-Users can add items and view stored items.
+A simple console-based Warehouse Inventory Management System developed using **Java Collections Framework** as part of the Object-Oriented Programming assignment.
+
+## Features
+
+- Add new items to inventory
+- Remove existing items
+- Update item stock (increase/decrease quantity)
+- Search items by ID or Name
+- View complete inventory
+- Input validation and error handling
+- Clean menu-driven interface
+
+## Classes Used
+
+1. **Item** - Represents individual inventory items
+2. **Inventory** - Manages collection of items using `ArrayList<Item>`
+3. **Warehouse** - Main class with console menu interface
+
+## Technologies
+
+- Java (JDK 8 or higher)
+- Java Collections Framework (`ArrayList`)
+- Object-Oriented Programming principles (Encapsulation, Abstraction)
 
 ## How to Run
-1. Compile the program:
-   javac Main.java
-2. Run the program:
-   java Main
 
-## Sample Output
---- Warehouse Inventory System ---
-1. Add Item
-2. View Items
-3. Exit
-Choose option: 1
-Enter item name: Pen
-Enter quantity: 10
-Item added!
+1. Clone the repository:
+   ```bash
+   git clone <your-repository-url>
